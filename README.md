@@ -33,7 +33,8 @@
 #### Требования к результаты
 
     Прикрепите в файл README.md скриншот авторизации в админке.
-![HW1](/home/user/sys-pattern-homework-Myrork/img) 
+![HW1](https://github.com/Myrork/sys-pattern-homework-Myrork/main/img/HW1)
+
     Приложите в файл README.md текст использованных команд в GitHub.
 
 ---
