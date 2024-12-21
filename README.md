@@ -25,10 +25,10 @@
 ### Задание 1
 #### Процесс выполнения
 
-    1. `Выполняя ДЗ, сверяйтесь с процессом отражённым в записи лекции.`
-    2. `Установите PostgreSQL. Для установки достаточна та версия, что есть в системном репозитороии Debian 11.`
-    3. `Пользуясь конфигуратором команд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache.`
-    4. `Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.`
+    1. Выполняя ДЗ, сверяйтесь с процессом отражённым в записи лекции.
+    2. Установите PostgreSQL. Для установки достаточна та версия, что есть в системном репозитороии Debian 11.
+    3. Пользуясь конфигуратором команд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache.
+    4. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server.
 
 #### Требования к результаты
 
@@ -36,7 +36,13 @@
 ![HW1](https://github.com/Myrork/sys-pattern-homework-Myrork/blob/main/img/HW1.png)
 
     Приложите в файл README.md текст использованных команд в GitHub.
-
+  1. sudo -s 
+  2. wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
+  3. dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
+  4. apt update
+  5. apt install zabbix-web-service
+  6. systemctl restart zabbix-web-service
+  7. systemctl enable zabbix-web-service 
 ---
 
 ### Задание 2
