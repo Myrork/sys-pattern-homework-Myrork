@@ -34,6 +34,7 @@
 
     Прикрепите в файл README.md скриншот авторизации в админке.
 ![HW1](https://github.com/Myrork/sys-pattern-homework-Myrork/blob/main/img/HW1.png)
+![HW2](https://github.com/Myrork/sys-pattern-homework-Myrork/blob/main/img/HW2.png)
 
     Приложите в файл README.md текст использованных команд в GitHub.
   1. sudo -s 
@@ -59,8 +60,11 @@
 ####Требования к результаты
 
  1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+![HW3](https://github.com/Myrork/sys-pattern-homework-Myrork/blob/main/img/HW3.png)
  2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+![HW4](https://github.com/Myrork/sys-pattern-homework-Myrork/blob/main/img/HW4.png)
  3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+![HW5](https://github.com/Myrork/sys-pattern-homework-Myrork/blob/main/img/HW5.png)
  4. Приложите в файл README.md текст использованных команд в GitHub
 
 ---
